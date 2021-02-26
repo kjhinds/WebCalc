@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+button {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    width: 90%;
+    height: 90%;
+    font-size: larger;
+}
+
+button:hover {
+    border-color: yellow;
+}
+
+button:focus {
+    border-color: darkorange;
+}
+
+.destructive {
+    background-color: maroon;
+}
+
+.operator {
+    background-color: gray;
+}
+
+.number {
+    background-color: gainsboro;
+}
+
+#container {
+    margin: auto;
+    width: 300px;
+    height: 450px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: darkslategray;
+    background-color: lightslategrey;
+}
+
+#display {
+    width: 290px;
+    margin: auto;
+    height: 65px;
+    background-color: floralwhite;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: darkslategray;
+
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(5, 75px);
+    margin-top: 5px;
+}
